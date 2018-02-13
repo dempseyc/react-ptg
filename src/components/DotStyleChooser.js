@@ -16,9 +16,6 @@ export default class DotStyleChooser extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  getChosenStatus(dotStyle) {
-  }
-
   makeButtons (dotStyles) {
     let choiceStatus = "expanded";
     return dotStyles.map( (dotStyle, i) => {
